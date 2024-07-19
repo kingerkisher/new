@@ -34,16 +34,19 @@ body {
 
 .card1 .front {
     /* border: 1px solid green; */
-    border-radius: 20px;
-    position: absolute;
+    background-color: gray;
+    border-radius:20px ;
     top: 0;
     left: 0;
+    /* border: 3px solid black; */
+    position: absolute;
     height: 100%;
     width: 100%;
-    background-color: gray;
-    transform: rotateX(0deg);
-    transition: 0.5s;
+    justify-content: center;
+    display: flex;
+    transform: rotateY(0deg);
     backface-visibility: hidden;
+    transition: 1s;
 }
 
 .card1:hover .front {
